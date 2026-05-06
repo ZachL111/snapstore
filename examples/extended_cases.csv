@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,63,87,20,14,8,133,review,storage baseline scenario exercises the review path for bounded failure handling
+pressure,81,68,24,21,11,120,review,storage pressure scenario exercises the review path for bounded failure handling
+surge,104,100,21,12,13,244,accept,storage surge scenario keeps the local fixture within the modeled acceptance band
+degraded,64,61,36,29,5,11,review,storage degraded scenario exercises the review path for bounded failure handling
+recovery,89,107,16,9,10,237,accept,storage recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,70,80,21,15,10,138,review,storage boundary scenario exercises the review path for bounded failure handling
