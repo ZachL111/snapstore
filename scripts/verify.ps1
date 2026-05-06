@@ -59,5 +59,8 @@ foreach ($pathPattern in $knownPaths) {
 }
 
 New-Item -ItemType Directory -Force build/classes | Out-Null
-javac -d build/classes src/main/java/io/portfolio/Policy.java tests/PolicyTest.java
+javac -d build/classes src/main/java/io/portfolio/Policy.java src/main/java/io/portfolio/DomainReview.java tests/PolicyTest.java tests/DomainReviewTest.java
 java -cp build/classes io.portfolio.PolicyTest
+java -cp build/classes io.portfolio.DomainReviewTest
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-snapstore-detail.ps1

@@ -1,0 +1,6 @@
+name,focus,signal,slack,drag,confidence,score,lane
+baseline,WAL pressure,71,25,24,45,140,ship
+stress,snapshot width,46,20,9,45,130,watch
+edge,compaction risk,51,28,20,82,152,ship
+recovery,read drift,75,38,31,79,174,ship
+stale,WAL pressure,65,47,26,91,190,ship
